@@ -30,17 +30,11 @@
   padding-left: 15px;
   padding-right: 15px;
   grid-template-columns: repeat(14, 1fr);
-  grid-template-rows: 115px 876px auto auto auto auto auto;
+  grid-template-rows: 115px auto auto;
   grid-column-gap: 30px;
   grid-template-areas:
     '. . h h h h h h h h h h . .'
-    '. . p p p p i i i i i i . .'
-    '. . d d d d d d d d d d . .'
-    'e e e e e e e e e e e e e e'
-    'g g g g g g g g g g g g g g'
-    'c c c c c c c c c c c c c c'
-    'k k k k k k k k k k k k k k'
-    'f f f f f f f f f f f f f f';
+    'c c c c c c c c c c c c c c';
 }
 
 .subPageContainer {
