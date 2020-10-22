@@ -100,11 +100,12 @@ header {
 }
 
 .logo > p {
-  font-family: Avenir;
+  font-family: Avenir Medium;
   color: black;
   white-space: nowrap;
   display: flex;
-  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
   margin-left: 15px;
 }
 
@@ -223,10 +224,47 @@ nav > ul li a:active {
 // App Title, Price, Description and Links
 
 .appInfo {
-  background-color: green;
   grid-area: i;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.glassesBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -250px;
+}
+
+.appDescription {
+  color: black;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.appDescription > .first {
+  font-family: Avenir Light;
+  margin-right: 10px;
+  font-size: 28px;
+}
+.appDescription > .second {
+  font-family: Avenir Medium;
+  font-size: 28px;
+}
+
+.descriptionLine {
+  height: 1px;
+  width: 450px;
+  background-color: black;
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -284,60 +322,6 @@ nav > ul li a:active {
     margin-top: 13px;
     text-align: center;
   }
-}
-
-.appDescriptionContainer {
-  font-size: 2.5rem;
-  font-weight: normal;
-  background-color: yellow;
-  line-height: 1.5;
-}
-
-.appDescription {
-  text-align: center;
-  text-decoration: underline;
-  color: black;
-}
-
-@media only screen and (max-width: 992px) {
-  .appDescription {
-    text-align: center;
-  }
-}
-
-.downloadButtonsContainer {
-  display: inline-block;
-  margin-top: 42px;
-  filter: $drop-shadow;
-}
-
-@media only screen and (max-width: 992px) {
-  .downloadButtonsContainer {
-    text-align: center;
-  }
-}
-
-.playStore {
-  height: 75px;
-  margin-right: 24px;
-}
-
-@media only screen and (max-width: 992px) {
-  .playStore {
-    margin-right: 24px;
-    margin-bottom: 0px;
-  }
-}
-
-@media only screen and (max-width: 528px) {
-  .playStore {
-    margin-right: 0px;
-    margin-bottom: 24px;
-  }
-}
-
-.appStore {
-  height: 75px;
 }
 
 // iPhone Device Preview
@@ -436,7 +420,6 @@ nav > ul li a:active {
   justify-content: flex-start;
   flex-grow: 1;
   flex-wrap: wrap;
-  margin-top: 93px;
 }
 .section_one > h1 {
   font-family: Avenir;
@@ -469,8 +452,8 @@ nav > ul li a:active {
 }
 .section_two_content {
   grid-area: h;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-areas: 'z z z z z b b b b b b b b b';
@@ -504,7 +487,7 @@ nav > ul li a:active {
   justify-content: flex-start;
   flex-grow: 1;
   flex-wrap: wrap;
-  margin-top: 90px;
+  margin-top: 60px;
   margin-left: -16px;
   margin-right: -16px;
   display: grid;
@@ -513,8 +496,8 @@ nav > ul li a:active {
 }
 .section_three_content {
   grid-area: h;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: 'l r';
@@ -553,6 +536,7 @@ nav > ul li a:active {
 
 .section_three_col2 {
   grid-area: r;
+  margin-top: 15px;
   padding-left: 20px;
 }
 .section_three_col2 > h2 {
@@ -567,7 +551,6 @@ nav > ul li a:active {
   font-family: Avenir;
   font-size: 26px;
   max-width: 600px;
-  font-weight: medium;
 }
 
 // Section Four
@@ -681,9 +664,13 @@ nav > ul li a:active {
   font-size: 26px;
   margin-bottom: 20px;
 }
+
+.section_five_content > .col1 > .linkContainer > h2 {
+  font-size: 23px;
+}
+
 .subtext {
-  width: 90%;
-  height: 100px;
+  height: 70px;
   align-self: flex-start;
 }
 .section_five_content > .col3 {
