@@ -260,6 +260,26 @@ nav > ul li a:active {
   font-size: 28px;
 }
 
+.names {
+  color: black;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.names > .amper {
+  font-family: Avenir Light;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 22px;
+}
+.names > .name {
+  font-family: Avenir Medium;
+  font-size: 22px;
+}
+
 .descriptionLine {
   height: 1px;
   width: 450px;
@@ -344,6 +364,9 @@ nav > ul li a:active {
   clip-path: url(#screenMask);
   margin-left: 26px;
   margin-top: 23px;
+}
+video {
+  outline: 0px;
 }
 
 .videoContainer > video {
@@ -579,6 +602,8 @@ nav > ul li a:active {
 .section_four_text {
   grid-area: b;
   flex: 1;
+  padding-left: 30px;
+  padding-top: 50px;
 }
 .section_four_text > h1 {
   font-family: Avenir;
