@@ -246,18 +246,6 @@ nav > ul li a:active {
   align-items: center;
 }
 
-.appDescription > .first {
-  font-family: Lato;
-  font-weight: 300;
-  margin-right: 10px;
-  font-size: 28px;
-}
-.appDescription > .second {
-  font-family: Lato;
-  font-weight: 400;
-  font-size: 28px;
-}
-
 @media only screen and (max-width: 992px) {
   .appInfo {
     padding-top: 50px;
@@ -424,8 +412,8 @@ nav > ul li a:active {
   margin-left: -40px;
 }
 .markerstitle > .left {
-  font-family: Lato;
-  font-weight: 300;
+  font-family: Nunito;
+  font-weight: 200;
   font-size: 20px;
   font-style: italic;
   margin-right: 60px;
@@ -439,8 +427,8 @@ nav > ul li a:active {
 }
 
 .markerstitle > .right {
-  font-family: Lato;
-  font-weight: 300;
+  font-family: Nunito;
+  font-weight: 200;
   font-size: 20px;
   font-style: italic;
   font-size: 20px;
@@ -464,7 +452,7 @@ nav > ul li a:active {
 .goaltitle > .right {
   font-weight: 400;
   font-family: Lato;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .content {
@@ -489,13 +477,13 @@ nav > ul li a:active {
 
 .col1 > h2 {
   font-family: Lato;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 28px;
 }
 .col1 > p {
   padding-top: 10px;
-  font-family: Lato;
-  font-weight: 300;
+  font-family: Nunito;
+  font-weight: 400;
   font-size: 22px;
 }
 .col2 > h2 {
@@ -505,19 +493,19 @@ nav > ul li a:active {
 }
 .col2 > p {
   padding-top: 10px;
-  font-family: Lato;
-  font-weight: 300;
+  font-family: Nunito;
+  font-weight: 400;
   font-size: 22px;
 }
 .col3 > h2 {
-  font-family: Lato;
+  font-family: Nunito;
   font-weight: 700;
   font-size: 28px;
 }
 .col3 > p {
   padding-top: 10px;
-  font-family: Lato;
-  font-weight: 300;
+  font-family: Nunito;
+  font-weight: 400;
   font-size: 22px;
 }
 .col2 {
