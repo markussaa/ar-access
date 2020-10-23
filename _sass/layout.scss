@@ -260,6 +260,26 @@ nav > ul li a:active {
   font-size: 28px;
 }
 
+.names {
+  color: black;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.names > .amper {
+  font-family: Avenir Light;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 22px;
+}
+.names > .name {
+  font-family: Avenir Medium;
+  font-size: 22px;
+}
+
 .descriptionLine {
   height: 1px;
   width: 450px;
