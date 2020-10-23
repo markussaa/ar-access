@@ -401,7 +401,6 @@ nav > ul li a:active {
     height: 488px;
   }
 }
-
 .container > .title {
   grid-area: t;
   flex: 0 1 auto;
@@ -409,8 +408,8 @@ nav > ul li a:active {
   justify-content: flex-start;
   flex-grow: 1;
   flex-wrap: wrap;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 110px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
 }
