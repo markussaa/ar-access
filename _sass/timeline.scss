@@ -95,7 +95,8 @@ header {
 }
 
 .logo > p {
-  font-family: Avenir Medium;
+  font-family: Lato;
+  font-weight: 400;
   color: black;
   white-space: nowrap;
   display: flex;
@@ -244,17 +245,6 @@ nav > ul li a:active {
   justify-content: center;
   align-items: center;
 }
-
-.appDescription > .first {
-  font-family: Avenir Light;
-  margin-right: 10px;
-  font-size: 28px;
-}
-.appDescription > .second {
-  font-family: Avenir Medium;
-  font-size: 28px;
-}
-
 .descriptionLine {
   height: 1px;
   width: 450px;

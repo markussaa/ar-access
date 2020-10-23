@@ -100,7 +100,8 @@ header {
 }
 
 .logo > p {
-  font-family: Avenir Medium;
+  font-family: Lato;
+  font-weight: 400;
   color: black;
   white-space: nowrap;
   display: flex;
@@ -251,13 +252,15 @@ nav > ul li a:active {
 }
 
 .appDescription > .first {
-  font-family: Avenir Light;
+  font-family: Lato;
+  font-weight: 300;
   margin-right: 10px;
-  font-size: 28px;
+  font-size: 30px;
 }
 .appDescription > .second {
-  font-family: Avenir Medium;
-  font-size: 28px;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 32px;
 }
 
 .names {
@@ -270,13 +273,15 @@ nav > ul li a:active {
 }
 
 .names > .amper {
-  font-family: Avenir Light;
+  font-family: Lato;
+  font-weight: 300;
   margin-left: 10px;
   margin-right: 10px;
   font-size: 22px;
 }
 .names > .name {
-  font-family: Avenir Medium;
+  font-family: Lato;
+  font-weight: 400;
   font-size: 22px;
 }
 
@@ -440,13 +445,14 @@ video {
   flex-wrap: wrap;
 }
 .section_one > h1 {
-  font-family: Avenir;
-  font-size: 60px;
-  font-weight: medium;
+  font-family: Lato;
+  font-size: 58px;
+  font-weight: 700;
   padding-bottom: 20px;
 }
 .section_one > p {
-  font-family: Avenir Book;
+  font-family: Lato;
+  font-weight: 300;
   line-height: 30px;
   font-size: 26px;
   padding-left: 30px;
@@ -484,15 +490,16 @@ video {
   flex: 1;
 }
 .section_two_text > h1 {
-  font-family: Avenir;
-  font-size: 60px;
-  font-weight: medium;
+  font-family: Lato;
+  font-size: 58px;
+  font-weight: 700;
   padding-bottom: 20px;
   padding-left: 10px;
 }
 
 .section_two_text > p {
-  font-family: Avenir Book;
+  font-family: Lato;
+  font-weight: 300;
   line-height: 30px;
   font-size: 26px;
   padding-left: 30px;
@@ -531,25 +538,26 @@ video {
 }
 .section_three_col1 > h1 {
   padding-top: 20px;
-  font-family: Avenir;
-  font-size: 60px;
-  font-weight: medium;
+  font-family: Lato;
+  font-size: 62px;
+  font-weight: 700;
   padding-bottom: 80px;
 }
 
 .section_three_col1 > h2 {
-  font-family: Avenir;
-  font-size: 30px;
-  font-weight: medium;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 700;
   line-height: 35px;
 }
 
 .section_three_col1 > p {
-  padding-top: 20px;
-  font-family: Avenir;
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 30px;
   font-size: 26px;
+  padding-top: 20px;
   max-width: 600px;
-  font-weight: medium;
 }
 
 .section_three_col2 {
@@ -559,15 +567,17 @@ video {
 }
 .section_three_col2 > h2 {
   padding-top: 40px;
-  font-family: Avenir;
-  font-size: 30px;
-  font-weight: medium;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 700;
   line-height: 35px;
 }
 .section_three_col2 > p {
-  padding-top: 20px;
-  font-family: Avenir;
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 30px;
   font-size: 26px;
+  padding-top: 20px;
   max-width: 600px;
 }
 
@@ -606,7 +616,8 @@ video {
   padding-top: 50px;
 }
 .section_four_text > h1 {
-  font-family: Avenir;
+  font-family: Lato;
+  font-weight: 700;
   font-size: 60px;
   font-weight: medium;
   padding-bottom: 20px;
@@ -614,9 +625,10 @@ video {
 }
 
 .section_four_text > p {
-  font-family: Avenir Book;
-  line-height: 27px;
-  font-size: 24px;
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 26px;
   padding-left: 30px;
 }
 
@@ -680,13 +692,15 @@ video {
   flex-direction: row;
 }
 .linkContainer > a {
-  font-family: Avenir Heavy;
+  font-family: Lato;
+  font-weight: 700;
   font-size: 26px;
   margin-bottom: 20px;
   color: black;
 }
 .linkContainer > a > h2 {
-  font-family: Avenir Heavy;
+  font-family: Lato;
+  font-weight: 700;
   font-size: 26px;
 }
 .section_five_content > .col1 > .linkContainer > a > h2 {
@@ -695,6 +709,8 @@ video {
 
 .subtext {
   height: 70px;
+  font-family: Lato;
+  font-weight: 300;
   align-self: flex-start;
 }
 .section_five_content > .col3 {
